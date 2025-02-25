@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;    
+    position: relative;
+    right: 50px;
+    font-size: 20px;
+}
+button{
+    height: 40px;
+    width: 110px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+.title p,button{
+    position: relative;
+    right: 100px;
+}
+.title p{
+    position: relative;
+    right: 150px;
+    left: 80px;
+}
+.title button{
+    position: relative;
+    left: -50px;
+}
+.title1{
+    position: relative;
+    right: 180px;
+    font-weight: 550;
+}
+.content{
+    display: flex;
+    position: relative;
+    top: 85px;
+    left: 50px;
+    justify-content: center;
+}
+.content3{
+    position: relative;
+    top: 220px;
+    text-align: center;
+}
+.content3 h1{
+    line-height: 75px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}   
+.box1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    top: 30px;
+}  
+.end h1{
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+.end{
+    position: relative;
+    top: 350px;
+    background-color: black;
+}
+.gg, .ytb, .apple{
+    display: flex;
+    justify-content: space-between;
+}
+.end1, .end2, .end3 {
+    border: 1px solid rgb(78, 69, 69);
+    width: 80%;
+    margin: 20px auto; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    color: white;
+}
+.end2{
+    border: none;
+    background-color: rgba(108, 86, 86, 0.496);
+}
+.end4{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto; 
+    padding: 20px; 
+}
+
+
